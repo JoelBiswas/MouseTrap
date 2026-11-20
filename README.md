@@ -1,5 +1,9 @@
 ### Electronic Mouse Trap
 A 3D-printable mouse trap using an ultrasonic distance sesnsor and servo motor
+
+![Assembled Image](Media/IMG_2836.jpeg)
+
+
 ## About this Project
 This repo contains all of the files for my final project for my ECE1100: ECE Discovery Practicum class at Georgia Tech. Towards the begining of this semester, people across my dorm began spotting mice around the lounge and hallway areas. That gave me the idea to build a trap that would automatically detect when a mouse enters and close the door so that the mouse can't escape. I could then come back later and remove the mouse from the trap, and release it safely. The build uses an HC-SR04 ultrasonic sensor inside the trap to measure the distance to the closest object. Under normal conditions, this distance is constant, as the sensor is simply looking at a wall. When a mouse enters, the sensor detects that an object is close by. This causes the ESP-32 to send a command to a servo motor, which causes the door to fall. The entire system is powered off of a 9V battery
 ## Navigating this Repo
